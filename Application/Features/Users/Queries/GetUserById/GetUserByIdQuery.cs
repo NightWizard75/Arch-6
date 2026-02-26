@@ -1,0 +1,8 @@
+﻿using Application.Shared.DTOs;
+using MediatR;
+
+namespace Application.Features.Users.Queries.GetUserById;
+
+public record GetUserByIdQuery(
+    Guid Id
+    ) : IRequest<UserDto>;

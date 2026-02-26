@@ -1,1 +1,11 @@
 global using Xunit;
+global using FluentAssertions;
+global using NSubstitute;
+global using Application.Features.Users.Commands.CreateUser;
+global using Application.Features.Users.Commands.ActivateUser;
+global using Application.Features.Users.Queries.GetUserById;
+global using Application.Features.Users.Queries.GetAllUsers;
+global using Application.Shared.DTOs;
+global using Application.Shared.Exceptions;
+global using Domain.Contracts;
+global using Domain.Entities;
